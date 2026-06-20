@@ -33,7 +33,7 @@ a {
 }
 
 .page {
-  width: min(1040px, calc(100% - 40px));
+  width: min(1120px, calc(100% - 40px));
   margin: 0 auto;
 }
 
@@ -67,8 +67,8 @@ a {
 }
 
 .hero {
-  max-width: 780px;
-  padding: 72px 0 48px;
+  max-width: 960px;
+  padding: 64px 0 46px;
 }
 
 .eyebrow {
@@ -86,14 +86,14 @@ a {
 
 h1 {
   margin: 18px 0 16px;
-  max-width: 680px;
-  font-size: clamp(31px, 3.6vw, 40px);
-  line-height: 1.12;
+  max-width: 960px;
+  font-size: clamp(30px, 3.2vw, 38px);
+  line-height: 1.1;
   letter-spacing: 0;
 }
 
 .lead {
-  max-width: 710px;
+  max-width: 760px;
   color: var(--muted);
   font-size: 17px;
   line-height: 1.6;
